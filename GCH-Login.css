@@ -1,0 +1,35 @@
+.Login{
+    text-align: center;
+}
+.Login h2{
+    color: rgb(11, 11, 66);
+}
+.Login i{
+    color: grey;
+    margin: 10px;
+}
+.Login input{
+    height: 45px;
+    width: 260px;
+    border-radius: 10px;
+}
+.Login button{
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    height: 45px;
+    width: 260px;
+    border-radius: 10px;
+    background-color: blue;  
+}
+.Login label{
+    color: rgb(60, 60, 131);
+    font-size: 20px;
+}
+.Login a{
+    color: red;
+}
+.Login img{
+    height: 150px;
+    width: 150px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<htmL>
+    <head>
+        <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="GCH.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <div class="form">
+        <form onsubmit="return verifyPassword()">   
+        <h2>Registration Page</h2>
+        <label style="padding-right: 140px;">First Name:</label><br>
+        <i class="fa fa-user"></i><input type="text" placeholder="Enter Your Firstname" id="firstName" class="firstname" required><br>
+        <label style="padding-right: 145px;">Last Name:</label><br>
+        <i class="fa fa-user"></i><input type="text" placeholder="Enter Your Lastname" id="lastName" class="lastname" required><br>
+        <label style="padding-right: 150px;">Username:</label><br>
+        <i class="fa fa-user"></i><input type="text" placeholder="Enter Username" id="userName" class="username" required><br>
+        <label style="padding-right: 170px;">E-mail:</label><br>
+        <i class="fa fa-envelope-open"></i><input type="email" placeholder="Enter Your E-mail" id="mail" class="email" required><br>
+        <label style="padding-right: 150px;">Password:</label><br>
+        <i class="fa fa-key"></i><input type="password" placeholder="Enter Your Password" id="password1" class="password" required><br>
+        <div id="message" style="color: red;"></div>
+        <label style="padding-right: 75px;">Confirm Password:</label><br>
+        <i class="fa fa-key"></i><input type="password" placeholder="Re-type Your Password" id="password2" class="password" required><br>
+        <label style="padding-right: 100px;">Phone Number</label><br>
+        <i class="fa fa-mobile"></i><input type="tel" placeholder="Enter Your Phone Number" id="num" required><br>
+        <label style="padding-right: 110px">Referral</label><br>
+        <i class="fa fa-user-circle-o"></i><input type="url" placeholder="Enter Your Referral Link" id="ref" class="phoneNumber" required><br>
+        <i class="fa fa-ke"><button type="submit">Register Now<i class="fa fa-check"></i></button><br>
+        <p>Already created an account? <a href="#">Login Here</a></p>
+        <script src="GCH.js"></script>   
+    </div>
+    </form>
+    </body>
+</htmL>

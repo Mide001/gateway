@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" type="text/css" href="GCH-Login.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="Login">
+            <form onsubmit="verifyPassword()">
+            <img src="image/GATEWAY.png" alt="logo">
+            <h2>User Login</h2>
+            <label style="padding-right: 150px;">Username:</label><br>
+            <i class="fa fa-user"></i><input type="text" class="username" placeholder="Username" required><br>
+            <label style="padding-right: 150px;">Password:</label><br>
+            <i class="fa fa-key"></i><input type="password" placeholder="Password" class="Password" id="password"><br>
+            <div id="message" style="color: red;"></div>
+            <i class="fa fa-k"></i><button type="submit">LOGIN <i class="fa fa-check"></i></button>
+            <p>Forgot Password <a href="#">Click Here!</a></p>
+            <p>Don't have an account? <a href="#">Click Here!</a></p>
+        </form>
+        </div>
+        <script src="GCH-Login.js"></script>
+    </body>
+</html>
